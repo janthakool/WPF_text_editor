@@ -1,0 +1,110 @@
+﻿<Window x:Name="FormMain" x:Class="WpfTextEditorG11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTextEditorG11"
+        mc:Ignorable="d"
+        Title="Text Editor By Group11 " Height="600" Width="800" AutomationProperties.Name="Text Editor" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Menu Height="32" VerticalAlignment="Top" Width="791" VerticalContentAlignment="Top">
+            <MenuItem Header="File" Height="23" Width="41">
+                <MenuItem x:Name="New" Header="New" Height="22" Click="NewFile"/>
+                <MenuItem Header="Open" HorizontalAlignment="Left" Height="22" Width="140" Click="OpenFile"/>
+                <MenuItem Header="Save" HorizontalAlignment="Left" Height="22" Width="140" Click="SaveFile"/>
+            </MenuItem>
+            <MenuItem Header="Edit" Height="23" Width="41">
+                <MenuItem Header="Undo" HorizontalAlignment="Left" Height="25" Width="140" Click="Undo"/>
+                <MenuItem Header="Redo" HorizontalAlignment="Left" Height="22" Width="140" Click="Redo"/>
+                <MenuItem Header="Cut" HorizontalAlignment="Left" Height="22" Width="140" Click="Cut"/>
+                <MenuItem Header="Copy" HorizontalAlignment="Left" Height="22" Width="140" Click="Copy"/>
+                <MenuItem Header="Paste" HorizontalAlignment="Left" Height="22" Width="140" Click="Paste"/>
+            </MenuItem>
+            <MenuItem Header="About" Height="24" Width="51">
+                <MenuItem Header="Write By Group 11&#xA;Advance Computer &#xA;Programming&#xA;Naresuan University" HorizontalAlignment="Left" Height="82" Width="238" FontSize="9" Margin="0,0,-110,0" FontWeight="Bold" FontStyle="Italic" Click="About"/>
+            </MenuItem>
+            <MenuItem Header="Color" Height="20" Width="42" FontWeight="Bold">
+                <MenuItem Header="RED" Height="20" Click="MenuItem_Click_14" FontWeight="Normal" HorizontalAlignment="Left" Width="140"/>
+                <MenuItem Header="Yellow" HorizontalAlignment="Left" Height="18" Width="143" FontWeight="Normal" Click="MenuItem_Click_33"/>
+                <MenuItem Header="Green" HorizontalAlignment="Left" Height="25" Width="143" FontWeight="Normal" Click="MenuItem_Click_34"/>
+                <MenuItem Header="Pink" HorizontalAlignment="Left" Height="22" Width="143" FontWeight="Normal" Click="MenuItem_Click_35"/>
+                <MenuItem Header="Brown" HorizontalAlignment="Left" Height="21" Width="143" FontWeight="Normal" Click="MenuItem_Click_36"/>
+                <MenuItem Header="Purple" HorizontalAlignment="Left" Height="20" Width="143" Click="MenuItem_Click_16" FontWeight="Normal"/>
+                <MenuItem Header="Orange" HorizontalAlignment="Left" Height="23" Width="143" FontWeight="Normal" Click="MenuItem_Click_37"/>
+                <MenuItem Header="White" HorizontalAlignment="Left" Height="19" Width="143" FontWeight="Normal" Click="MenuItem_Click_38"/>
+                <MenuItem Header="Black" HorizontalAlignment="Left" Height="28" Width="143" FontWeight="Bold" FontStyle="Italic" FontSize="16" Click="MenuItem_Click_39"/>
+            </MenuItem>
+            <MenuItem Header="BG Color" Height="26" Width="55">
+                <MenuItem Header="None" HorizontalAlignment="Left" Height="26" Width="140" FontWeight="Bold" Click="MenuItem_Click_41"/>
+                <MenuItem Header="Red" HorizontalAlignment="Left" Height="22" Width="140" Click="MenuItem_Click_40"/>
+                <MenuItem Header="Yellow" HorizontalAlignment="Left" Height="25" Width="140" Click="MenuItem_Click_42"/>
+                <MenuItem Header="Green" HorizontalAlignment="Left" Height="22" Width="140" Click="MenuItem_Click_43"/>
+                <MenuItem Header="Pink" HorizontalAlignment="Left" Height="28" Width="140" Click="MenuItem_Click_44"/>
+                <MenuItem Header="Brown" HorizontalAlignment="Left" Height="25" Width="140" Click="MenuItem_Click_45"/>
+                <MenuItem Header="Purple" HorizontalAlignment="Left" Height="22" Width="140" Click="MenuItem_Click_46"/>
+                <MenuItem Header="Orange" HorizontalAlignment="Left" Height="25" Width="140" Click="MenuItem_Click_47"/>
+                <MenuItem Header="Black" HorizontalAlignment="Left" Height="22" Width="140" Click="MenuItem_Click_48"/>
+            </MenuItem>
+            <Button Content="Delete ALL" Height="22" Width="78" Click="Button_Click"/>
+            <TextBox x:Name="TextSize" Height="22" Width="35" TextDecorations="{x:Null}" TextAlignment="Center" TextWrapping="Wrap" Tag="" TextChanged="TextSize_TextChanged" Cursor="" SpellCheck.IsEnabled="True" AutomationProperties.HelpText="This is input your Text Size"/>
+            <MenuItem Header="&gt;" Height="32" Width="25" FontSize="20" FontWeight="Bold">
+                <MenuItem Header="5" HorizontalAlignment="Left" Height="22" Width="182" Click="MenuItem_Click_19"/>
+                <MenuItem Header="8" HorizontalAlignment="Left" Height="30" Width="182" Click="MenuItem_Click_20"/>
+                <MenuItem Header="11" HorizontalAlignment="Left" Height="29" Width="182" Click="MenuItem_Click_21"/>
+                <MenuItem Header="12" HorizontalAlignment="Left" Height="32" Width="182" Click="MenuItem_Click_22"/>
+                <MenuItem Header="14" HorizontalAlignment="Left" Height="26" Width="182" Click="MenuItem_Click_23"/>
+                <MenuItem Header="16" HorizontalAlignment="Left" Height="31" Width="182" Click="MenuItem_Click_24"/>
+                <MenuItem Header="18" HorizontalAlignment="Left" Height="27" Width="182" Click="MenuItem_Click_25"/>
+                <MenuItem Header="20" HorizontalAlignment="Left" Height="29" Width="182" Click="MenuItem_Click_26"/>
+                <MenuItem Header="25" HorizontalAlignment="Left" Height="30" Width="182" Click="MenuItem_Click_27"/>
+                <MenuItem Header="30" HorizontalAlignment="Left" Height="34" Width="182" Click="MenuItem_Click_28"/>
+                <MenuItem Header="36" HorizontalAlignment="Left" Height="36" Width="182" Click="MenuItem_Click_29"/>
+                <MenuItem Header="56" HorizontalAlignment="Left" Height="26" Width="182" Click="MenuItem_Click_30"/>
+                <MenuItem Header="72" HorizontalAlignment="Left" Height="34" Width="182" Click="MenuItem_Click_31"/>
+                <MenuItem Header="120" HorizontalAlignment="Left" Height="29" Width="182" Click="MenuItem_Click_32"/>
+            </MenuItem>
+            <Button Content="Font Size +5" Width="75" Click="Button_Click_1"/>
+            <Button Content="Font Size -5" Width="75" Click="Button_Click_2"/>
+            <Button Content="BOLD" Width="75" FontWeight="Bold" Click="Button_Click_3"/>
+            <Button Content="Normal" Width="74" Click="Button_Click_4"/>
+            <MenuItem Header="F" Height="28" Width="35" FontSize="20" FontWeight="ExtraBlack">
+                <MenuItem Header="Superspace Bold" HorizontalAlignment="Left" Height="28" Width="212" FontWeight="Normal" FontSize="16" Click="MenuItem_Click_50" FontFamily="Superspace Bold" Margin="0,0,-26,0"/>
+                <MenuItem Header="TH SarabunPSK" HorizontalAlignment="Left" Height="23" Width="186" FontWeight="Normal" FontSize="16" Click="MenuItem_Click_51" FontFamily="TH SarabunPSK"/>
+                <MenuItem Header="Arial" HorizontalAlignment="Left" Height="25" Width="186" FontWeight="Normal" FontSize="12" Click="MenuItem_Click_52" FontFamily="Arial"/>
+            </MenuItem>
+        </Menu>
+        <RichTextBox x:Name="RTBeditor" Height="537" Margin="0,32,0,0" Width="792" AutomationProperties.Name="RTBeditor" VerticalAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" HorizontalScrollBarVisibility="Visible" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontFamily="TH SarabunPSK" Padding="5,10,5,5" FontSize="36" MinWidth="10" Block.LineHeight="1" FontWeight="Bold">
+            <FlowDocument>
+                <Paragraph LineHeight="6">
+                    <Run Text="59361324&#x9; นายณรงค์ศักดิ์ กาเบ้า"/>
+                </Paragraph>
+                <Paragraph LineHeight="6">
+                    <Run Text="59361430&#x9; นายณัฐดนัย จันทะกูล"/>
+                </Paragraph>
+                <Paragraph LineHeight="6">
+                    <Run Text="59365063&#x9; นายวัชรินทร์ ปัญญาวงค์"/>
+                </Paragraph>
+                <Paragraph LineHeight="6">
+                    <Run Text="59362826&#x9; นายบริรักษ์ อภัยภักดี"/>
+                </Paragraph>
+                <Paragraph LineHeight="6">
+                    <Run Text="Nutdanai JANTHAKOOL"/>
+                </Paragraph>
+                <Paragraph LineHeight="6">
+                    <Run Text="NARONGSAK"/>
+                </Paragraph>
+                <Paragraph LineHeight="6">
+                    <Run Text="WATCHARIN"/>
+                </Paragraph>
+                <Paragraph LineHeight="6">
+                    <Run Text="BORIRAK"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>

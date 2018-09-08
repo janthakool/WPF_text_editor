@@ -1,0 +1,15 @@
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\bin\Debug\WpfTextEditorG11.exe.config
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\bin\Debug\WpfTextEditorG11.exe
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\bin\Debug\WpfTextEditorG11.pdb
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\WpfTextEditorG11.csprojResolveAssemblyReference.cache
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\MainWindow.g.cs
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\App.g.cs
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\WpfTextEditorG11_MarkupCompile.cache
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\WpfTextEditorG11_MarkupCompile.lref
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\MainWindow.baml
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\WpfTextEditorG11.g.resources
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\WpfTextEditorG11.Properties.Resources.resources
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\WpfTextEditorG11.csproj.GenerateResource.Cache
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\WpfTextEditorG11.csproj.CoreCompileInputs.cache
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\WpfTextEditorG11.exe
+C:\Users\NNkung001\Documents\Visual Studio 2017\Projects\WPF text editor\WpfTextEditorG11\WpfTextEditorG11\obj\Debug\WpfTextEditorG11.pdb
